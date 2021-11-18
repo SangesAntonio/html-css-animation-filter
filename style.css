@@ -146,7 +146,7 @@
 }
 @keyframes moove-bottom{
     0%{bottom:-10px; right: 10%;} 
-    90%{bottom: -10%; right: 60%;}
+    90%{bottom: -10px; right: 60%;}
 } 
 .ex-12-top-white{
     animation: moove-white 2s;
@@ -156,7 +156,7 @@
 
 @keyframes moove-white{
     0%{top:-10px; left: 10%;} 
-    90%{top: -10%; left: 60%;}
+    90%{top: -10px; left: 60%;}
 } 
     
 
@@ -177,3 +177,37 @@
     width: 60px;
     height: 20px;
 }
+/*esercizio tredici*/
+
+.ex-13-top-white{
+    animation: moove-around-top 4s;
+    animation-iteration-count: infinite;
+}
+@keyframes moove-around-top{
+    0%{top:-10px; left: 10%;} 
+    25%{top: -10%; left: 90%;}
+    50%{top: 90%; left: 90%;}
+    75%{top: 90%; left: -10px;}
+    95%{top: -10px; left: -10%;}
+    100%{top: -10; left: 10%;}
+} 
+
+.ex-13-bottom-white{
+    animation: moove-around-bottom 4s;
+    animation-iteration-count: infinite;
+}
+@keyframes moove-around-bottom{
+    0%{bottom:-10px; right: 10%;} 
+    25%{bottom: -10%; right: 80%;}
+    50%{bottom: 90%; right: 80%;}
+    75%{bottom: 90%; right: -10px;}
+    95%{bottom: -10px; right: -10%;}
+    100%{bottom: -10; right: 10%;}
+}
+
+
+
+
+
+
+
