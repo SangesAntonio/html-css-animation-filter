@@ -99,9 +99,19 @@
     filter: grayscale(1) sepia(1);
     border-radius: 15px;
 }
+
 .ex-10-icon {
     font-size: 60px;
+    animation: buffering 2s;
+    animation-iteration-count: infinite;
 }
+/*esercizio dieci*/
+@keyframes buffering{
+  0%  { rotate: 0deg;}
+100%  {rotate: 360deg;}
+}
+
+
 .ex-11-icon {
     font-size: 60px;
 }
