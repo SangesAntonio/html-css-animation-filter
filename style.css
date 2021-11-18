@@ -91,6 +91,13 @@
 .ex-9-img {
     margin: 50px 100px;
     width: 400px;
+    transition: scale 2s, filter 2s, border-radius 2s; ;
+}
+/*esercizio nove*/
+.ex-9-img:hover{
+    scale: 2;
+    filter: grayscale(1) sepia(1);
+    border-radius: 15px;
 }
 .ex-10-icon {
     font-size: 60px;
