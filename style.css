@@ -114,7 +114,18 @@
 
 .ex-11-icon {
     font-size: 60px;
+    animation-iteration-count: infinite;
 }
+/*esercizio undici*/
+.ex-11-icon:hover{
+    animation: buffering-75 2s;
+}
+
+@keyframes buffering-75{
+    0%  { rotate: 0deg;}
+  75%  {rotate: 275deg;}
+  }
+
 .ex-12-button, .ex-13-button {
     position: relative;
     display: block;
