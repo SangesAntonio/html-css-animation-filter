@@ -139,6 +139,28 @@
     text-align: center;
     text-decoration: none;
 }
+/*esercizio dodici*/
+.ex-12-bottom-white{
+    animation: moove-bottom 2s;
+    animation-iteration-count: infinite;
+}
+@keyframes moove-bottom{
+    0%{bottom:-10px; right: 10%;} 
+    90%{bottom: -10%; right: 60%;}
+} 
+.ex-12-top-white{
+    animation: moove-white 2s;
+    animation-iteration-count: infinite;
+
+}
+
+@keyframes moove-white{
+    0%{top:-10px; left: 10%;} 
+    90%{top: -10%; left: 60%;}
+} 
+    
+
+
 .ex-12-top-white, .ex-13-top-white {
     position: absolute;
     top: -10px;
