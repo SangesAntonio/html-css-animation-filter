@@ -74,6 +74,18 @@
 .ex-7-img{
     transition: filter 2s;
 }
+/*esercizio otto*/
+.ex-8-img{
+
+    transition: border-radius 2s, filter 2s, scale 2s; 
+}
+
+.ex-8-img:hover{
+    border-radius: 15px;
+    filter: grayscale(1);
+    scale: 0.5;
+    
+}
 
 
 .ex-9-img {
