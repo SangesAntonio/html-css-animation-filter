@@ -66,11 +66,15 @@
     width: 500px;
 }
 /*esercizio sei*/
+.ex-7-img:hover,
 .ex-6-img:hover{
     filter: grayscale(1);
 }
 /*esercizio sette*/
-.ex-7-img
+.ex-7-img{
+    transition: filter 2s;
+}
+
 
 .ex-9-img {
     margin: 50px 100px;
